@@ -148,6 +148,7 @@ html,body {
 
 .nav li a{
   font-size: 18px;
+  text-align: center;
   padding-top: 37px;
 }
 
@@ -225,7 +226,7 @@ html,body {
   font-size: 15px;
   color: #5d5d5d;
   max-width: 85%;
-  text-align: center;
+  text-align: justify;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 60px;
@@ -430,48 +431,7 @@ html,body {
   padding-left: 35px;
 }
 
-.overview--bg{
-  background: url("../assets/images/overview-background.png") no-repeat;
-  background-size: cover;
-  position: relative;
-  z-index: 1;
-}
 
-.overview--bg:after{
- content: '';
- position: absolute;
- left: 0;
- right: 0;
- top: 0;
- bottom: 0;
- background-color: rgba(120, 88, 221, .9);
- z-index: -1;
-}
-
-.overview .material-icons{
-  float: left;
-  color: #fff;
-  line-height: 1.8;
-  padding-right: 10px;
-}
-
-.overview__single-section__number{
-  font-size: 40px;
-  font-weight: bold;
-  color: #fff;
-  margin-bottom: 0;
-}
-
-.overview__single-section__title{
-  font-size: 20px;
-  color: #fff;
-}
-
-@media (max-width: 991px) {
-  .overview__single-section{
-   margin-bottom: 40px;
- }
-}
 
 .gutters-140.row{
   margin-right: -70px;
@@ -640,3 +600,12 @@ html,body {
   color: #fff;
   font-family: Roboto-Light;
 }
+ 
+@media (max-width: 991px) {
+  .gutters-60 > [class^="col-"], .gutters-60 > [class^="col-"]{
+    padding-right: 90px;
+    padding-left: 90px;
+  }
+}
+
+  
